@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+/* Font-Face Start */
+
+@font-face {
+    font-family: Cubano;
+    src: url(../fonts/Cubano.ttf);
+}
+
+@font-face {
+    font-family: Brandon_bld;
+    src: url(../fonts/Brandon_bld.otf);
+}
+
+@font-face {
+    font-family:Brandon_light;
+    src: url(../fonts/Brandon_light.otf);
+}
+
+@font-face {
+    font-family: Brandon_med;
+    src: url(../fonts/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: Brandon_reg;
+    src: url(../fonts/Brandon_reg.otf);
+}
+
+
+
+/* Font-Face End */
+
+
+/* Common Classes Start */
+
+.container {
+    width:70%;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.second_wrapper {
+    width:90%;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.third_wrapper {
+    width:85%;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+/* Common Classes End */
+
+
+
+
+/* banner And Header Start */
+
+
+.banner {
+    position:relative;
+    width:100%;
+}
+
+.banner img {
+    width:100%;
+    margin-bottom:-4px;
+}
+
+.banner_overlay {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: rgb(0, 0, 0,35%);
+}
+/* Header Start  */
+.header_wrapper {
+    padding:25px 0px;
+}
+
+.header_left {
+    width:22%;
+    float:left;
+    color:aliceblue;
+}
+
+.header_left i {
+    font-size: 24.83pt;
+}
+
+.header_left span {
+    font-family: Cubano;
+    font-size: 24.83pt;
+    font-weight:500;
+    
+}
+
+.header_right {
+    width:66%;
+    float:right;
+    text-align:right;
+}
+
+.header_right ul {
+    list-style:none;
+}
+
+.header_right ul li {
+    display:inline-block;
+    margin-right:6%;
+}
+
+.header_right ul li:last-child {
+    margin-right:0;
+}
+
+.header_right ul li:hover{
+    border-bottom:1px solid rgb(255, 81, 255);
+}
+
+.header_right ul li:hover a{
+    color:rgb(255, 81, 255);
+
+}
+
+.header_right ul li a{
+    text-decoration:none;
+    font-family: Brandon_med;
+    font-size:18pt;
+    font-weight:500;
+    color:#ffffff;
+    transition:0.3s;
+}
+
+/* Header End */
+
+/* Banner Content Start */
+
+.banner_content {
+    display:inline-block;
+    position:absolute;
+    width:75%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+
+.banner_content_top p{
+    font-family:Brandon_light;
+    font-size:27pt;
+    font-weight:300;
+    color:#fff;
+}
+
+.banner_content_middle{
+    margin-top:40px;
+    margin-bottom:80px;
+}
+
+.banner_content_middle h1 {
+    font-family: Brandon_bld;
+    font-size:52pt;
+    font-weight:700;
+    color:#fff;
+    text-transform:uppercase;
+}
+
+.banner_content_bottom button{
+    width:240px;
+    height:63px;
+    background-color: transparent;
+    border:3px solid white;
+    border-radius:5px;
+    outline:none;
+    font-family:Brandon_bld;
+    font-size:23px;
+    color:#ffff;
+    transition:0.3s;
+}
+
+.banner_content_bottom button:hover {
+    background-color:purple;
+    border:3px solid purple;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* Banner Content End */
+
+/* banner And Header End */
+
+
+
+
+/* Testimonial Start */
+
+.testimonial_wrapper {
+    overflow:hidden;
+    padding:100px 0;
+}
+
+.testimonila_top_left {
+    width:60%;
+    float:left;
+}
+
+
+.testimonial_heading span {
+    display:inline-block;
+    font-family:Brandon_light;
+    font-size:59pt;
+    color:#222222;
+}
+
+.testimonial_heading span:last-child {
+    font-family:Brandon_bld;
+    color:#222222;
+}
+
+
+.testimonila_paragraph p{
+    font-family:Brandon_reg;
+    font-size:18pt;
+    color:#777777;
+}
+
+.testimonila_paragraph p:first-child{
+    margin:40px 0;
+}
+
+.testimonila_top_right {
+    width:30%;
+    float:left;
+    margin:35px 0px;
+    margin-left:60px;
+}
+
+.testimonila_top_right img{
+    width:100%;
+}
+
+.bottom_testi {
+    background-color: #fafafa;
+}
+
+.testimonila_bottom_left {
+    width:35%;
+    float:left;
+    margin:35px 0px;
+}
+
+.testimonila_bottom_left img {
+    width:100%;
+}
+
+.testimonila_bottom_right {
+    width:60%;
+    float:left;
+    margin-left:47px;
+}
+
+/* Testimonial End */
+
+
+
+
+/* Services Start */
+
+.services_all {
+    padding:100px 0px;
+}
+
+.services {
+    margin-bottom:52px;
+    width:43%;
+    float:left;
+}
+
+.services_wrapper {
+    overflow:hidden;
+}
+
+.services_left {
+    margin-top: 5px;
+    width: 65.76px;
+    float: left;
+    height: 65.76px;
+    background-color: rgb(0, 0, 0);
+    position:relative;
+    border-radius:50%;
+}
+
+.services_left i {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:rgb(255, 255, 255);
+    font-size:30pt;
+}
+
+.services_left img {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.services_right {
+    width:80%;
+    float:left;
+
+}
+
+.services_right p:first-child {
+    font-family:Brandon_med;
+    font-size:22pt;    margin-left:18px;
+}
+
+.services_right p:last-child {
+    margin-top: 7px;
+    font-family: Brandon_reg;
+    color:#777777;
+    margin-left:18px;
+}
+
+.services:nth-child(even) {
+    /* margin-left: 134px; */
+    float:right;
+
+}
+/* Services End */
+
+
+/* Client Section Start */
+.client_section {
+    background-color: #fafafa;
+}
+
+.client_wrapper {
+    padding: 100px 0px;
+    overflow:hidden;
+}
+
+.client_head_wrapper {
+    text-align:center;
+    width:50%;
+    margin:0 auto;
+}
+
+.testimonial_heading_paragraph {
+    text-align:center;
+    margin-top:-13px;
+}
+
+.testimonial_heading_paragraph p {
+    font-family:Brandon_reg;
+    font-size:21pt;
+    color:#777777;
+}
+
+.client_box_top {
+    padding: 71px 0px;
+    overflow:hidden;
+}
+
+.clientbox_top_left{
+    width:25%;
+    float:left;
+}
+
+.mask {
+    width:200px;
+    height:200px;
+    background-color:black;
+    border-radius:50%;
+    margin:auto;
+}
+
+.clientbox_top_right {
+    margin-right:90px;
+    margin-top:20px;
+    width:66%;
+    float:right;
+}
+
+.client_top_right_wrapper {
+    overflow:hidden;
+}
+
+.tool_tip_wrapper {
+    margin-top:50px;
+    width:0%;
+    float:left;
+}
+
+.tool_tip {
+    width:0;
+    height:0;
+    border-top:40px solid transparent;
+    border-bottom:40px solid transparent;
+    border-right:40px solid white;
+}
+
+.paragraph {
+    padding:35px 47px;
+    width:84%;
+    float:right;
+    background-color: #fff;
+}
+
+.paragraph p {
+    font-family:Brandon_reg;
+    font-size:22pt;
+    color:#777777;
+}
+
+.paragraph p:last-child {
+    font-size:16pt;
+    color:#7690c5;
+    margin-top:5px;
+}
+
+.clientbox_bottom_left {
+    margin-left:74px;
+    margin-top:20px;
+    width:66%;
+    float:left;
+}
+
+.client_box_bottom_right  {
+    width:25%;
+    float:right;
+}
+
+.tool_tip_bottom {
+    width:0;
+    height:0;
+    border-top:40px solid transparent;
+    border-bottom:40px solid transparent;
+    border-left:40px solid white;
+}
+
+.tool_tip__bottom_wrapper {
+    margin-top:-117px;
+    float:right;
+}
+
+.paragraph_bottom {
+    padding:35px 47px;
+    width:84%;
+    float:left;
+    background-color: #fff;
+}
+
+.paragraph_bottom p {
+    font-family:Brandon_reg;
+    font-size:22pt;
+    color:#777777;
+}
+
+.paragraph_bottom p:last-child {
+    font-size:16pt;
+    color:#7690c5;
+    margin-top:5px;
+}
+/* Client Section End */
+
+
+
+/* Advertising Section Start */
+
+
+.ul_wrapper {
+    padding:72px 0px;
+    background-color: #fff;
+}
+
+.ul_wrapper ul li{
+    display:inline-block;
+    padding-left:52px;
+}
+
+.ul_wrapper ul li:first-child {
+    padding-left:0px;
+}
+/* Advertising Section End */
+
+
+
+/* Team Start */
+.team {
+    padding:100px 0;
+    background-color:black;
+    color:white;
+}
+
+.team_middle {
+    padding:80px 0px 50px 0px;
+    overflow:hidden;
+}
+
+.team_middle_left {
+    margin-left:85px;
+    width:26%;
+    float:left;
+    text-align:center;
+}
+
+.team_middle_left:first-child{
+    margin-left:0px;
+}
+
+.team_middle_name {
+    margin:16px 0px 7px 0px;
+    font-family: Brandon_med;
+}
+
+.team_middle_name p:last-child{
+    font-family: Brandon_light;
+    color:#ebebeb;
+    margin-top:2px;
+}
+
+.team_middle_social_media ul{
+    list-style:none;
+}
+
+.team_middle_social_media ul li{
+    display:inline-block;
+    margin-left:6px;
+
+}
+
+.team_middle_social_media ul li:hover a i{
+    background-color: #fff;
+    color:black;
+}
+
+.team_middle_social_media ul li:first-child {
+    margin-right:0px;
+}
+
+.team_middle_social_media ul li a{
+    color:white;
+}
+
+.team_middle_social_media ul li a i{
+    width:30%;
+    padding:14px;
+    border:4px solid white;
+    border-radius:50%;
+    transition:0.3s;
+}
+
+.team_bottom {
+    width:87%;
+    margin:0 auto;
+    font-family:Brandon_light;
+    font-size:16pt;
+    color:#ebebeb;
+}
+/* Team End */
+
+/* Footer Start */
+footer {
+    background-color:#7690c5;
+}
+
+.footer_top {
+    padding:100px 0px 100px 0px;
+    border-bottom:1px solid #87a0d2;
+    overflow:hidden;
+}
+
+.footer_top_left {
+    width:45%;
+    float:left;
+}
+
+.footer_top_left_middle {
+    margin-top:10px;
+    font-family:Brandon_light;
+    font-size:14pt;
+    color:white;
+}
+
+.footer_top_left_bottom {
+    margin-top:52px;
+    overflow:hidden;
+}
+
+.social_media {
+    margin-bottom:40px;
+    width:40%;
+    float:left;
+}
+
+.social_media_wrapper {
+    overflow:hidden;
+}
+
+.social_media:nth-child(even) {
+    float:right;
+}
+
+.icon {
+    width:10%;
+    float:left;
+}
+
+.icon i {
+    font-size: 30px;
+    color:white;
+}
+
+.address {
+    width:80%;
+    float:right;
+}
+
+.social_media p{
+    padding: 4px 0px;
+    display:inline-block;
+    font-family:Brandon_light;
+    font-size:14pt;
+    color:white;
+    margin-left:15px;
+}
+
+.footer_top_right {
+    margin-left: 90px;
+    width:45%;
+    float:left;
+}
+
+.footer_top_right_wrapper {
+    margin-top:30px;
+}
+
+.form input{
+    font-size:14px;
+    padding:20px 10px;
+    margin-bottom:40px;
+    display:block;
+    width:100%;
+    border:none;
+    outline:none;
+}
+
+.form input::placeholder {
+    font-family: Brandon_light;
+    font-size:16px;
+}
+
+textarea {
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:16px;
+    padding:20px 10px;
+}
+
+textarea::placeholder {
+    font-family: Brandon_light;
+    font-size:16px;
+}
+
+.footer_bottom {
+    padding:30px 0px;
+    width:40%;
+    margin:0 auto;
+    text-align:center;
+    font-family:Brandon_reg;
+    font-size:16px;
+    color:white;
+}
+
+/* Footer End */
